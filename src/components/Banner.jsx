@@ -6,7 +6,7 @@ import CoviswiftLogo from "../assets/images/CoviSwift2.svg";
 function Banner() {
   return (
     <>
-      
+
         <Grid className="banner-section section">
           <Container>
             <Grid container spacing={2}>
@@ -14,7 +14,7 @@ function Banner() {
                 <Box>
                   <img src={CoviswiftLogo} alt="Coviswift Logo" width="200px"/>
                   <Typography className="banner-text">
-                    <h1 style={{ marginBottom: "0px", fontWeight:"700" }}>World’s First</h1>
+                    <h1 style={{marginBottom: "0px", fontWeight:"700"}}>World’s First</h1>
                     <h1>
                       High Throughput Point Of Care Testing Solution For
                       Covid-19
@@ -26,7 +26,7 @@ function Banner() {
             </Grid>
           </Container>
         </Grid>
-     
+
     </>
   );
 }
