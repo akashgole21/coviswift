@@ -1,66 +1,112 @@
 {
 
+  "homepage":"https://akashgole21.github.io/coviswift/",
+
   "name": "coviswift",
+
   "version": "0.1.0",
+
   "private": true,
+
   "dependencies": {
+
     "@emotion/react": "^11.9.3",
+
     "@emotion/styled": "^11.9.3",
+
     "@mui/icons-material": "^5.8.4",
+
     "@mui/material": "^5.8.4",
+
     "@testing-library/jest-dom": "^5.16.4",
+
     "@testing-library/react": "^13.3.0",
+
     "@testing-library/user-event": "^13.5.0",
+
     "aos": "^2.3.4",
+
     "axios": "^0.27.2",
+
     "bootstrap": "^5.1.3",
+
     "cors": "^2.8.5",
+
     "express": "^4.18.1",
-    "gh-pages": "^4.0.0",
+
     "jquery": "^3.6.0",
+
     "nodemailer": "^6.7.7",
+
     "popper.js": "^1.16.1",
+
     "react": "^18.2.0",
+
     "react-dom": "^18.2.0",
+
     "react-scripts": "5.0.1",
+
     "web-vitals": "^2.1.4"
+
   },
+
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+
     "start": "react-scripts start",
+
+    "predeploy": "npm run build",
+
+    "deploy": "gh-pages -d build",
+
     "build": "react-scripts build",
+
     "test": "react-scripts test",
+
     "eject": "react-scripts eject"
 
   },
+
   "eslintConfig": {
+
     "extends": [
+
       "react-app",
+
       "react-app/jest"
+
     ]
+
   },
+
   "browserslist": {
+
     "production": [
+
       ">0.2%",
+
       "not dead",
+
       "not op_mini all"
+
     ],
+
     "development": [
+
       "last 1 chrome version",
+
       "last 1 firefox version",
+
       "last 1 safari version"
+
     ]
+
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/akshhdev/coviswift.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/akshhdev/coviswift/issues"
+
+  "devDependencies": {
+
+    "gh-pages": "^6.1.1"
+
   }
+
 }
+
